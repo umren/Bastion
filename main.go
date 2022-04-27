@@ -17,7 +17,7 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 
 	num1 := d3()
-	num2 := d3()
+	num2 := d4()
 	fmt.Println(num1)
 	fmt.Println(num2)
 }
