@@ -1,3 +1,3 @@
-module umren/electric
+module umren/bastion
 
 go 1.18
