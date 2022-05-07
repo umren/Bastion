@@ -9,7 +9,7 @@ def load_careers(path):
     return json.loads(all_of_it)
 
 
-js = load_careers('data/careers.json')
+careers = load_careers('data/careers.json')
 rn = randint(0, 108)
-print("Profession Title: ", js[rn]['professionTitle'])
-print(js[rn]['listOne'][1])
+print("Profession Title: ", careers[rn]['professionTitle'])
+print(careers[rn]['listOne'][1])

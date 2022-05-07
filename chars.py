@@ -5,7 +5,7 @@ def hp():
     return d6()
 
 
-def funt():
+def money():
     return d6()
 
 
