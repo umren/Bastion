@@ -1,12 +1,8 @@
-def full_name():
-    pass
-
-
-def race():
-    pass
-
-
 def hp():
+    pass
+
+
+def funt():
     pass
 
 
@@ -19,14 +15,6 @@ def dex():
 
 
 def cha():
-    pass
-
-
-def armour():
-    pass
-
-
-def weapon():
     pass
 
 

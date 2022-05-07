@@ -10,7 +10,8 @@ def load_careers(path):
     all_of_it = file.read()
 
     js = json.loads(all_of_it)
-    print("Profession Title: ", js[0]['professionTitle'])
+    rn = randint(0, 108)
+    print("Profession Title: ", js[rn]['professionTitle'])
 
 
 load_careers('data/careers.json')
