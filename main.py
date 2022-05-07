@@ -1,17 +1,15 @@
 import json
 
 from dice import *
-
+from chars import *
 
 def load_careers(path):
     file = open(path, mode='r')
-
-    # read all lines at once
     all_of_it = file.read()
-
-    js = json.loads(all_of_it)
-    rn = randint(0, 108)
-    print("Profession Title: ", js[rn]['professionTitle'])
+    return json.loads(all_of_it)
 
 
-load_careers('data/careers.json')
+js = load_careers('data/careers.json')
+rn = randint(0, 108)
+print("Profession Title: ", js[rn]['professionTitle'])
+print(js[rn]['listOne'][1])

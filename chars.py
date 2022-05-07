@@ -1,22 +1,25 @@
+from dice import d6
+
+
 def hp():
-    pass
+    return d6()
 
 
 def funt():
-    pass
+    return d6()
 
 
 def str():
-    pass
+    return (d6() + d6() + d6())
 
 
 def dex():
-    pass
+    return (d6() + d6() + d6())
 
 
 def cha():
-    pass
+    return (d6() + d6() + d6())
 
 
-def profession():
+def profession(professions):
     pass
